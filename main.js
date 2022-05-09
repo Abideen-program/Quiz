@@ -97,7 +97,6 @@ button.addEventListener('click', () => {
     currentNumber++;
     if( currentNumber < quizData.length){
         loadQuiz()
-        console.log(score)
     } else{
         quizFinish.innerHTML = `
             <h2>You have anserwed ${score} out of ${quizData.length} questions correctly</h2>
